@@ -1,0 +1,17 @@
+﻿
+<!DOCTYPE html>
+@*<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+@*<link href="~/styles/font-awesome.min.css" rel="stylesheet" />*@
+@*<link href="~/styles/style.css" rel="stylesheet" />*@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
+@RenderSection("scripts", required: false)
